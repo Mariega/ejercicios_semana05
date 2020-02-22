@@ -1,0 +1,149 @@
+.main {
+  margin: 3%;
+  border: 1px solid red;
+}
+h1,
+h2,
+h3 {
+  font-family: Helvetica;
+  color: #1f3f68;
+}
+.header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 80%;
+  color: black;
+}
+
+.banner_imagen {
+  max-width: 100%;
+  position: relative;
+}
+.texto__encima1 {
+  position: absolute;
+  letter-spacing: 0.04em;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 44px;
+}
+
+.texto__encima2 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Arial;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 15px;
+}
+
+.header__menu {
+  display: flex;
+  margin-left: auto;
+}
+
+.barrabuscador {
+  width: 940px;
+  height: 56px;
+  left: 213px;
+  top: 436px;
+  background: #f4f4f4;
+  border-radius: 10px;
+}
+
+.popular__post1 {
+  display: grid;
+  grid-template-columns: 1 1;
+  grid-template-rows: 1 1 1 1 1;
+  border: 1px solid red;
+}
+.popular__post1__imagen {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 6;
+  border: 1px solid red;
+}
+.popularsub {
+  display: grid;
+  grid-template-columns: 1 1 1;
+  grid-template-rows: 1 1 1 1 1;
+  border: 1px solid red;
+}
+.popularsub__post2 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  border: 1px solid red;
+}
+.popularsub__post3 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  border: 1px solid red;
+}
+.popularsub__post4 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  border: 1px solid red;
+}
+
+.allarticleposts {
+  display: flex;
+  flex-direction: column;
+}
+.allarticleposts__post {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.allarticleposts__imagen {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  border: 1px solid green;
+  margin:0 0 0 0;
+  padding:0 0 0 0;
+  
+}
+
+.allarticleposts__texto {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  border: 1px solid red;
+  margin-left: 50px;
+}
+
+.allarticleposts__texto h2 {
+  margin-top: 0;
+  border: 1px solid red;
+}
+
+.oldnewpost {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.footer {
+  background: #316099;
+  border-radius: 0px 200px 0px 0px;
+}
+/* .footer__call{
+    display:flex;
+    justify-content: space-around;
+} */
+.footerinfo {
+  display: flex;
+  justify-content: space-around;
+}
